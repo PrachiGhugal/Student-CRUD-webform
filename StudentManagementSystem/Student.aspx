@@ -15,7 +15,6 @@
                 <asp:TextBox ID="txtid" runat="server"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:Button ID="Button6" runat="server" BackColor="#CC00FF" Font-Bold="True" Font-Size="Medium" ForeColor="White" OnClick="Button6_Click" Text="Search" />
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtid" ErrorMessage="Id is required"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
@@ -30,7 +29,6 @@
             <td class="text-right" style="width: 43px">&nbsp;</td>
             <td>
                 <asp:TextBox ID="txtname" runat="server"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtname" ErrorMessage="Name is required"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
@@ -63,7 +61,6 @@
             <td class="text-right" style="width: 43px">&nbsp;</td>
             <td>
                 <asp:TextBox ID="txtaddress" runat="server" TextMode="MultiLine"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtaddress" ErrorMessage="Address is required"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
@@ -78,7 +75,6 @@
             <td class="text-right" style="width: 43px">&nbsp;</td>
             <td>
                 <asp:TextBox ID="txtcontact" runat="server" TextMode="Phone"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtcontact" ErrorMessage="Contact is required"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
@@ -93,7 +89,6 @@
             <td class="text-right" style="width: 43px">&nbsp;</td>
             <td>
                 <asp:TextBox ID="txtemail" runat="server" TextMode="Email"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txtemail" ErrorMessage="Email is required"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
@@ -118,7 +113,6 @@
                     <asp:ListItem>React</asp:ListItem>
                     <asp:ListItem>Git</asp:ListItem>
                 </asp:DropDownList>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="DropDownList1" ErrorMessage="Select Course"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
